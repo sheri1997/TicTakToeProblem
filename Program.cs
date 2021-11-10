@@ -6,7 +6,8 @@ namespace TicTaktoeProblem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the Tic Tak toe Program");
+            TicTacToeGame tic = new TicTacToeGame();
+            tic.UC1();
         }
     }
 }
