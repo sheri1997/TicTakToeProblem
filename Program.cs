@@ -7,7 +7,7 @@ namespace TicTaktoeProblem
         static void Main(string[] args)
         {
             TicTacToeGame tic = new TicTacToeGame();
-            tic.UC1();
+            tic.charBoard();
         }
     }
 }
